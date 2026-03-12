@@ -2,7 +2,8 @@
 
 Real-time voice-to-text transcription using your choice of AI model. No login, no paywall — just speak.
 
-<img width="798" height="395" alt="Screenshot 2026-03-12 at 5 00 56 PM" src="https://github.com/user-attachments/assets/4f045ce0-9e9a-44ab-b8a8-23eea68b3702" />
+<img width="715" height="391" alt="Screenshot 2026-03-12 at 5 00 56 PM" src="https://github.com/user-attachments/assets/579a8ef1-7f5f-4243-a7e1-1f9cee79f7aa" />
+
 
 ---
 
