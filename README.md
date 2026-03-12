@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VoiceDrop
+
+Real-time voice-to-text transcription using your choice of AI model. No login, no paywall — just speak.
+
+## Supported Providers
+
+| Provider | Models | Connection |
+|----------|--------|------------|
+| **OpenAI** | Whisper-1 | Chunked via API route (near real-time) |
+| **Deepgram** | Nova-2, Nova-3, Enhanced, Base + variants | Direct WebSocket (live streaming) |
+| **Azure STT** | Latest, Conversation, Interactive, Dictation | Direct browser SDK (live streaming) |
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) and:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Expand the **API Keys** panel and enter a key for your chosen provider
+2. Select a **model** from the dropdown
+3. Pick a **language** (or leave on Auto-detect)
+4. Hit the **record button** and start speaking
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- **Next.js 16** (App Router) with TypeScript
+- **Tailwind CSS v4** for styling
+- **Browser MediaRecorder API** for audio capture
+- **Web Audio API** (AnalyserNode) for live visualizer
+- **microsoft-cognitiveservices-speech-sdk** for Azure STT
+- No database, no auth, no backend persistence
 
-To learn more about Next.js, take a look at the following resources:
+## Deploy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-repo/voicedrop)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The app deploys to Vercel with zero configuration. API routes handle proxy duties for OpenAI.
 
-## Deploy on Vercel
+## Privacy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- API keys are stored in `sessionStorage` (browser only, cleared when tab closes)
+- Deepgram and Azure connect directly from the browser — keys never touch the server
+- OpenAI keys transit through stateless Next.js API routes for CORS proxying but are never stored or logged
+- No analytics, no cookies, no tracking
