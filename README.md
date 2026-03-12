@@ -1,4 +1,4 @@
-# VoiceDrop
+# Voice Drop
 
 Real-time voice-to-text transcription using your choice of AI model. No login, no paywall — just speak.
 
