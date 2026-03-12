@@ -1,0 +1,60 @@
+{"sessionId":"17fce8","location":"server.js:upgrade","message":"WS upgrade request","data":{"pathname":"/_next/webpack-hmr","destroyed":true},"timestamp":1773331621501,"hypothesisId":"A-server"}
+{"sessionId":"17fce8","location":"server.js:upgrade","message":"WS upgrade request","data":{"pathname":"/_next/webpack-hmr","destroyed":true},"timestamp":1773331626644,"hypothesisId":"A-server"}
+{"sessionId":"17fce8","location":"server.js:upgrade","message":"WS upgrade request","data":{"pathname":"/_next/webpack-hmr","destroyed":true},"timestamp":1773331630367,"hypothesisId":"A-server"}
+{"sessionId":"17fce8","location":"server.js:upgrade","message":"WS upgrade request","data":{"pathname":"/_next/webpack-hmr","destroyed":true},"timestamp":1773331633438,"hypothesisId":"A-server"}
+{"sessionId":"17fce8","location":"server.js:upgrade","message":"WS upgrade request","data":{"pathname":"/_next/webpack-hmr","destroyed":true},"timestamp":1773331636542,"hypothesisId":"A-server"}
+{"sessionId":"17fce8","location":"server.js:upgrade","message":"WS upgrade request","data":{"pathname":"/_next/webpack-hmr","destroyed":true},"timestamp":1773331638674,"hypothesisId":"A-server"}
+{"sessionId":"17fce8","location":"server.js:upgrade","message":"WS upgrade request","data":{"pathname":"/_next/webpack-hmr","destroyed":true},"timestamp":1773331646536,"hypothesisId":"A-server"}
+{"sessionId":"17fce8","location":"server.js:upgrade","message":"WS upgrade request","data":{"pathname":"/_next/webpack-hmr","destroyed":true},"timestamp":1773331653942,"hypothesisId":"A-server"}
+{"sessionId":"17fce8","location":"server.js:upgrade","message":"WS upgrade request","data":{"pathname":"/_next/webpack-hmr","destroyed":true},"timestamp":1773331660639,"hypothesisId":"A-server"}
+{"sessionId":"17fce8","location":"server.js:upgrade","message":"WS upgrade request","data":{"pathname":"/_next/webpack-hmr","destroyed":true},"timestamp":1773331665656,"hypothesisId":"A-server"}
+{"sessionId":"17fce8","location":"server.js:upgrade","message":"WS upgrade request","data":{"pathname":"/_next/webpack-hmr","destroyed":true},"timestamp":1773331670668,"hypothesisId":"A-server"}
+{"sessionId":"17fce8","location":"server.js:upgrade","message":"WS upgrade request","data":{"pathname":"/_next/webpack-hmr","destroyed":true},"timestamp":1773331675684,"hypothesisId":"A-server"}
+{"sessionId":"17fce8","location":"server.js:upgrade","message":"WS upgrade request","data":{"pathname":"/_next/webpack-hmr","handledBy":"nextjs"},"timestamp":1773331688176,"hypothesisId":"A-server","runId":"post-fix"}
+{"sessionId":"17fce8","location":"page.tsx:Home","message":"Home MOUNTED","data":{"mountId":"ighv3r","navigationType":"navigate"},"timestamp":1773331688226,"hypothesisId":"A"}
+{"sessionId":"17fce8","location":"page.tsx:reducer","message":"reducer dispatch","data":{"actionType":"SET_KEYS","currentModel":null,"currentLang":null},"timestamp":1773331688235,"hypothesisId":"B"}
+{"sessionId":"17fce8","location":"page.tsx:reducer","message":"reducer dispatch","data":{"actionType":"SET_KEYS","currentModel":null,"currentLang":null},"timestamp":1773331688235,"hypothesisId":"B"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:cleanupEffect","message":"cleanup effect SETUP (stop ref changed or mount)","data":{},"timestamp":1773331688227,"hypothesisId":"D"}
+{"sessionId":"17fce8","location":"page.tsx:reducer","message":"reducer dispatch","data":{"actionType":"SET_BROWSER_SUPPORT","currentModel":null,"currentLang":null},"timestamp":1773331688235,"hypothesisId":"B"}
+{"sessionId":"17fce8","location":"page.tsx:reducer","message":"reducer dispatch","data":{"actionType":"SET_BROWSER_SUPPORT","currentModel":null,"currentLang":null},"timestamp":1773331688235,"hypothesisId":"B"}
+{"sessionId":"17fce8","location":"page.tsx:reducer","message":"reducer dispatch","data":{"actionType":"SET_LANGUAGE","currentModel":null,"currentLang":null},"timestamp":1773331697098,"hypothesisId":"B"}
+{"sessionId":"17fce8","location":"page.tsx:reducer","message":"reducer dispatch","data":{"actionType":"SET_LANGUAGE","currentModel":null,"currentLang":null},"timestamp":1773331697099,"hypothesisId":"B"}
+{"sessionId":"17fce8","location":"page.tsx:reducer","message":"reducer dispatch","data":{"actionType":"SET_MODEL","currentModel":null,"currentLang":"en"},"timestamp":1773331699033,"hypothesisId":"B"}
+{"sessionId":"17fce8","location":"page.tsx:reducer","message":"reducer dispatch","data":{"actionType":"SET_MODEL","currentModel":null,"currentLang":"en"},"timestamp":1773331699034,"hypothesisId":"B"}
+{"sessionId":"17fce8","location":"page.tsx:reducer","message":"reducer dispatch","data":{"actionType":"SET_SETTINGS","currentModel":"nova-3","currentLang":"en"},"timestamp":1773331701450,"hypothesisId":"B"}
+{"sessionId":"17fce8","location":"page.tsx:reducer","message":"reducer dispatch","data":{"actionType":"SET_SETTINGS","currentModel":"nova-3","currentLang":"en"},"timestamp":1773331701450,"hypothesisId":"B"}
+{"sessionId":"17fce8","location":"page.tsx:reducer","message":"reducer dispatch","data":{"actionType":"SET_SETTINGS","currentModel":"nova-3","currentLang":"en"},"timestamp":1773331707548,"hypothesisId":"B"}
+{"sessionId":"17fce8","location":"page.tsx:reducer","message":"reducer dispatch","data":{"actionType":"SET_SETTINGS","currentModel":"nova-3","currentLang":"en"},"timestamp":1773331707548,"hypothesisId":"B"}
+{"sessionId":"17fce8","location":"page.tsx:reducer","message":"reducer dispatch","data":{"actionType":"SET_SETTINGS","currentModel":"nova-3","currentLang":"en"},"timestamp":1773331709398,"hypothesisId":"B"}
+{"sessionId":"17fce8","location":"page.tsx:reducer","message":"reducer dispatch","data":{"actionType":"SET_SETTINGS","currentModel":"nova-3","currentLang":"en"},"timestamp":1773331709399,"hypothesisId":"B"}
+{"sessionId":"17fce8","location":"useTranscription.ts:connect","message":"connect called","data":{"provider":"deepgram","model":"nova-3"},"timestamp":1773331717149,"hypothesisId":"C"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:start","message":"start called","data":{"timeslice":250},"timestamp":1773331719486,"hypothesisId":"D"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:stop","message":"stop called","data":{"hadRecorder":true,"recorderState":"recording"},"timestamp":1773331773130,"hypothesisId":"D"}
+{"sessionId":"17fce8","location":"useTranscription.ts:disconnect","message":"disconnect called","data":{"hadProvider":true},"timestamp":1773331773133,"hypothesisId":"C"}
+{"sessionId":"17fce8","location":"page.tsx:reducer","message":"reducer dispatch","data":{"actionType":"SET_MODEL","currentModel":"nova-3","currentLang":"en"},"timestamp":1773331778482,"hypothesisId":"B"}
+{"sessionId":"17fce8","location":"page.tsx:reducer","message":"reducer dispatch","data":{"actionType":"SET_MODEL","currentModel":"nova-3","currentLang":"en"},"timestamp":1773331778482,"hypothesisId":"B"}
+{"sessionId":"17fce8","location":"page.tsx:reducer","message":"reducer dispatch","data":{"actionType":"SET_MODEL","currentModel":"scribe_v2_realtime","currentLang":"en"},"timestamp":1773331782481,"hypothesisId":"B"}
+{"sessionId":"17fce8","location":"page.tsx:reducer","message":"reducer dispatch","data":{"actionType":"SET_MODEL","currentModel":"scribe_v2_realtime","currentLang":"en"},"timestamp":1773331782481,"hypothesisId":"B"}
+{"sessionId":"17fce8","location":"page.tsx:reducer","message":"reducer dispatch","data":{"actionType":"SET_KEYS","currentModel":"saaras:v3","currentLang":"en"},"timestamp":1773331795354,"hypothesisId":"B"}
+{"sessionId":"17fce8","location":"page.tsx:reducer","message":"reducer dispatch","data":{"actionType":"SET_KEYS","currentModel":"saaras:v3","currentLang":"en"},"timestamp":1773331795354,"hypothesisId":"B"}
+{"sessionId":"17fce8","location":"useTranscription.ts:connect","message":"connect called","data":{"provider":"sarvam","model":"saaras:v3"},"timestamp":1773331798696,"hypothesisId":"C"}
+{"sessionId":"17fce8","location":"server.js:upgrade","message":"WS upgrade request","data":{"pathname":"/api/sarvam-ws","handledBy":"sarvam"},"timestamp":1773331798947,"hypothesisId":"A-server","runId":"post-fix"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:start","message":"start called","data":{"timeslice":250},"timestamp":1773331799293,"hypothesisId":"D"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:stop","message":"stop called","data":{"hadRecorder":true,"recorderState":"recording"},"timestamp":1773331873661,"hypothesisId":"D"}
+{"sessionId":"17fce8","location":"useTranscription.ts:disconnect","message":"disconnect called","data":{"hadProvider":true},"timestamp":1773331873662,"hypothesisId":"C"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:cleanupEffect","message":"cleanup effect TEARDOWN running stop()","data":{},"timestamp":1773331900029,"hypothesisId":"D"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:stop","message":"stop called","data":{"hadRecorder":false},"timestamp":1773331900030,"hypothesisId":"D"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:cleanupEffect","message":"cleanup effect SETUP (stop ref changed or mount)","data":{},"timestamp":1773331900033,"hypothesisId":"D"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:cleanupEffect","message":"cleanup effect TEARDOWN running stop()","data":{},"timestamp":1773331900687,"hypothesisId":"D"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:stop","message":"stop called","data":{"hadRecorder":false},"timestamp":1773331900688,"hypothesisId":"D"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:cleanupEffect","message":"cleanup effect SETUP (stop ref changed or mount)","data":{},"timestamp":1773331900689,"hypothesisId":"D"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:cleanupEffect","message":"cleanup effect TEARDOWN running stop()","data":{},"timestamp":1773331901984,"hypothesisId":"D"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:stop","message":"stop called","data":{"hadRecorder":false},"timestamp":1773331901985,"hypothesisId":"D"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:cleanupEffect","message":"cleanup effect SETUP (stop ref changed or mount)","data":{},"timestamp":1773331901985,"hypothesisId":"D"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:cleanupEffect","message":"cleanup effect TEARDOWN running stop()","data":{},"timestamp":1773331903404,"hypothesisId":"D"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:stop","message":"stop called","data":{"hadRecorder":false},"timestamp":1773331903404,"hypothesisId":"D"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:cleanupEffect","message":"cleanup effect SETUP (stop ref changed or mount)","data":{},"timestamp":1773331903405,"hypothesisId":"D"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:cleanupEffect","message":"cleanup effect TEARDOWN running stop()","data":{},"timestamp":1773331904706,"hypothesisId":"D"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:stop","message":"stop called","data":{"hadRecorder":false},"timestamp":1773331904707,"hypothesisId":"D"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:cleanupEffect","message":"cleanup effect SETUP (stop ref changed or mount)","data":{},"timestamp":1773331904708,"hypothesisId":"D"}
+{"sessionId":"17fce8","location":"useAudioRecorder.ts:cleanupEffect","message":"cleanup effect TEARDOWN running stop()","data":{},"timestamp":1773331906690,"hypothesisId":"D"}

@@ -33,6 +33,7 @@ function tryListen(server, port) {
 }
 
 app.prepare().then(() => {
+  const nextUpgradeHandler = app.getUpgradeHandler();
   const server = http.createServer(async (req, res) => {
     const parsedUrl = parse(req.url, true);
     await handle(req, res, parsedUrl);
@@ -42,13 +43,13 @@ app.prepare().then(() => {
 
   server.on("upgrade", (request, socket, head) => {
     const { pathname } = parse(request.url, true);
-    if (pathname !== SARVAM_WS_PATH) {
-      socket.destroy();
-      return;
+    if (pathname === SARVAM_WS_PATH) {
+      wss.handleUpgrade(request, socket, head, (clientWs) => {
+        wss.emit("connection", clientWs, request);
+      });
+    } else {
+      nextUpgradeHandler(request, socket, head);
     }
-    wss.handleUpgrade(request, socket, head, (clientWs) => {
-      wss.emit("connection", clientWs, request);
-    });
   });
 
   wss.on("connection", (clientWs, request) => {

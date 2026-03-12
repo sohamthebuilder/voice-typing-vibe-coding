@@ -119,7 +119,6 @@ export default function Home() {
   const { theme, toggle: toggleTheme } = useTheme();
   const isConnectedRef = useRef(false);
   const [lastRequestBody, setLastRequestBody] = useState<RequestBody | null>(null);
-
   const {
     segments,
     fullText,
